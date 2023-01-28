@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Playfair+Display:wght@500;600;700;800&display=swap');
 
 /* variables */
-:root{
+:root {
     --primary:#57141B;
     --accents:#BE852C;
     --secondary:#EADECD;
@@ -12,7 +12,21 @@
     --headingsFont: 'Playfair Display', serif;
     --bodyFonts: 'Montserrat', sans-serif;
     --transitions: .3s linear;
-    
+
 }
 
 /* basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--bodyFonts);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--headingsFont);
+}
+
