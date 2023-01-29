@@ -47,6 +47,7 @@ a {
 }
 img {
     display: block;
+    width: 80%;
 }
 .container {
     width: 80%;
@@ -126,35 +127,4 @@ header .d-flex div:last-child {
 header .btn:hover {
     background: var(--white);
     color: var(--text);
-}
-/* HOME-INTRO STARTER*/
-.home-intro div {
-    flex: 0 0 47%;
-}
-.home-intro p {
-    padding: 20px 0;
-}
-/* PACKAGES */
-.packages {
-    background: linear-gradient(var(--black), var(--primary));
-}
-.packages article {
-    margin-bottom: 80px;
-}
-.packages article:last-child {
-    margin-bottom: 0;
-}
-.packages article div {
-    flex: 0 0 49%;
-}
-.packages article:nth-child(odd) div:first-child {
-    padding-left: 50px;
-}
-.packages article:nth-child(odd) {
-    flex-direction: row-reverse;
-}
-.packages h2 {
-    font-size: 48px;
-    line-height: 57px;
-    margin-bottom: 75px;
 }
