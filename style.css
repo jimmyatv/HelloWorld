@@ -102,8 +102,8 @@ img {
 .text-center {
     text-align: center;
 }
-
-.cta {
+/* CALL TO ACTION - CTA */
+.cta, .headers {
     position: relative;
 }
 
@@ -112,13 +112,13 @@ img {
     object-fit: cover;
 }
 
-.cta .container {
+.cta .container, .headers .container {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
-.cta p {
+.cta p, .headers p {
     padding: 30px 0;
 }
 
@@ -171,11 +171,11 @@ header .btn:hover {
     background: var(--white);
     color: var(--text);
 }
-/* HOME INTRO SECTION */
-.home-intro div {
+/* INTRO SECTION */
+.intro div {
     flex: 0 0 47%;
 }
-.home-intro p {
+.intro p {
     padding: 20px 0;
 }
 /* PACKAGE SECTION */
@@ -250,6 +250,10 @@ footer ul {
     line-height: 2.5;
 }
 
+footer ul li a:hover {
+    color: var(--accents);
+}
+
 footer a {
     color: var(--white);
     font-size: 16px;
@@ -262,6 +266,11 @@ footer input {
     border: none;
 }
 
+footer i:hover {
+    color: var(--accents);
+    transition: var(--transitions);
+}
+
 form a {
     margin-left: -25px;
 }
@@ -271,10 +280,26 @@ footer div:last-child > a {
     margin-right: 15px;   
 }
 
-footer div:last-child > a:hover {
+/* footer div:last-child > a:hover {
     color: var(--accents);   
-}
+}  resio sam problem sa funkcijom footer i:hover */
 
 footer form {
     margin-bottom: 25px;
+}
+/* MISSION */
+.mission {
+    background: var(--black);  
+}
+
+.mission div {
+    flex: 0 0 50%;
+}
+
+.mission div:last-child {
+    padding: 0 70px 0 70px;
+}
+
+.mission p {
+    padding: 30px 0;
 }
