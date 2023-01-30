@@ -1,5 +1,5 @@
 /* OUR FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Playfair+Display:wght@500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Montserrat:wght@300;400&family=Playfair+Display:wght@500;600;700;800&display=swap');
 /* VARIABLES */
 :root {
     --primary: #57141B;
@@ -62,6 +62,10 @@ img {
     justify-content: space-between;
     align-items: center;
 }
+
+.flex-start {
+    align-items: flex-start;
+}
 .text-white {
     color: var(--white);
 }
@@ -107,6 +111,11 @@ img {
 }
 .text-center {
     text-align: center;
+}
+
+.bg-dark {
+    background: var(--black);
+    color: var(--white);
 }
 /* CALL TO ACTION - CTA */
 .cta, .headers {
@@ -334,4 +343,65 @@ footer form {
 .booking h3 + p {
     font-size: 20px;
     line-height: 29px;
+}
+/* STEPS */
+.steps .lead {
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    color: var(--accents);
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    margin-bottom: -45px;
+    opacity: 0.5;
+}
+
+.steps h2 {
+    font-size: 48px;
+    line-height: 64px;
+}
+
+.steps div {
+    flex: 0 0 20%;
+}
+
+.steps h3 {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.steps h3 + p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 15px;
+}
+
+.steps .btn {
+    display: inline-block;
+    margin-top: 50px;
+}
+/* FEATURES */
+
+.features {
+    background: white;
+}
+ 
+.features .container div:first-child {
+    flex: 0 0 55%;
+}
+
+.features .container div:last-child {
+    flex: 0 0 35%;
+}
+
+.features h2 {
+    font-size: 48px;
+    line-height: 64px;
+    margin-bottom: 10px;
+}
+
+.features h3 {
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 10px;
 }
