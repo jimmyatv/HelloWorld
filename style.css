@@ -67,6 +67,10 @@ img {
     align-items: flex-start;
 }
 
+.flex-column {
+    flex-direction: column;
+}
+
 .stretch {
     align-items: stretch;
 }
@@ -519,4 +523,60 @@ footer form {
     width: 56px;
     margin-right: 16px;
 }
+/* CONTACT HEADER */
+
+/* A different way to upload images via CSS*/
+.headersContact {
+    background-image: url(./img/contactPhoto.jfif);
+    height: 85vh;
+    background-size: cover;
+    background-position: center;
+    padding: 0 100px;
+}
+
+.headersContact h2 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120%;
+}
+
+.headersContact p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    margin: 30px 0;
+}
+
+
+/* CONTACT - FORM */
+.form .send {
+    width: 30%;
+    margin: auto;
+    margin-top: 20px;
+    transition: var(--transitions);
+}
+
+
+.form form{
+    width: 40%;
+    padding: 35px;
+    margin: auto;
+}
+
+.form input {
+    margin-bottom: 20px;
+}
+
+.form input, textarea::placeholder {
+    color: var(--accents);
+    font-family: var(--headingsFont);
+    padding: 10px;
+}
+
+.form input::placeholder {
+    font-family: var(--headingsFont);
+    color: var(--accents);
+}
+
+
 
