@@ -70,6 +70,14 @@ img {
 .stretch {
     align-items: stretch;
 }
+.justify-center {
+    justify-items: center;
+    align-items: center;
+}
+
+.align-center {
+    align-items: center;
+}
 
 .text-white {
     color: var(--white);
@@ -451,5 +459,64 @@ footer form {
     margin-bottom: 8px;
 }
 
+/* TESTIMONIALS */
 
+.testimonials article:first-child h2 {
+    flex: 0 0 50%;
+    font-size: 48px;
+    line-height: 64px;
+    padding-left: 50px;
+}
+
+.testimonials article:first-child div {
+    flex: 0 0 50%;
+    justify-content: flex-end;
+}
+
+.testimonials article:first-child img {
+    width: 175px;
+}
+
+.testimonials article:last-child.container {
+    padding: 0 50px;
+}
+/* triangle - div */
+.testimonials article:first-child h2 {
+    flex: 0 0 50%;
+    font-size: 48px;
+    line-height: 64px;
+    padding-left: 50px;
+}
+.testimonials article:first-child div {
+    flex: 0 0 50%;
+    justify-content: flex-end;
+}
+.testimonials article:first-child img {
+    width: 175px;
+}
+.testimonials article:last-child.container {
+    padding: 0 50px;
+    margin-top: -22px;
+}
+
+.triangle {
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid var(--black);
+}
+.testimonials .box {
+    border-radius: 10px 10px 10px 2px;
+    padding: 33px;
+    font-size: 14px;
+    line-height: 24px;
+}
+.testimonials article > div {
+    flex: 0 0 48%;
+}
+.testimonials .person img {
+    width: 56px;
+    margin-right: 16px;
+}
 
