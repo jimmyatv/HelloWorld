@@ -578,5 +578,15 @@ footer form {
     color: var(--accents);
 }
 
+/* CONTACT MESSAGE */
+.message {
+    padding: 100px;
+    background: var(--accents);
+    opacity: 0.8;
+}
+
+.message h2 {
+    color: var(--secondary);
+}
 
 
