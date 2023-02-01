@@ -556,6 +556,10 @@ footer form {
     transition: var(--transitions);
 }
 
+.form .btn-black {
+    border: none;
+}
+
 
 .form form{
     width: 40%;
@@ -565,12 +569,22 @@ footer form {
 
 .form input {
     margin-bottom: 20px;
-}
-
-.form input, textarea::placeholder {
+    font-size: 18px;
     color: var(--accents);
     font-family: var(--headingsFont);
     padding: 10px;
+}
+
+.form textarea {
+    color: var(--accents);
+    font-size: 18px;
+}
+
+.form textarea::placeholder {
+    color: var(--accents);
+    font-family: var(--headingsFont);
+    padding: 10px;
+    font-size: 18px;
 }
 
 .form input::placeholder {
@@ -581,12 +595,21 @@ footer form {
 /* CONTACT MESSAGE */
 .message {
     padding: 100px;
-    background: var(--accents);
-    opacity: 0.8;
+    background: linear-gradient(var(--black), var(--accents));
+    opacity: 0.9;
 }
 
 .message h2 {
-    color: var(--secondary);
+    color: var(--white);
+    padding: 30px 0 100px 50px;
+}
+
+.message i {
+    font-size: 100px;
+    color: greenyellow;
+    display: inline-block;
+    margin: auto;
+    opacity: 0.8;
 }
 
 
