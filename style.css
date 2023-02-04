@@ -167,7 +167,6 @@ img {
 .ticker p{
     font-size: 20px;
 }
-
 /* NAVIGATION */
 nav {
     padding: 18px 0;
@@ -260,7 +259,7 @@ header .btn:hover {
 }
 
 /* GALLERY */
-.gallery .container img {
+.gallery .container img{
     flex: 0 0 32%;
     margin-bottom: 25px;
 }
@@ -320,7 +319,7 @@ footer div:last-child > a {
 
 /* footer div:last-child > a:hover {
     color: var(--accents);   
-}  fixed with function ==> footer i:hover */
+}  resio sam problem sa funkcijom footer i:hover */
 
 footer form {
     margin-bottom: 25px;
@@ -462,7 +461,7 @@ footer form {
 }
 
 .ourPackages ul li {
-    list-style: none;
+    list-style: inside;
     font-size: 16px;
     line-height: 140%;
     margin-bottom: 8px;
@@ -618,7 +617,6 @@ footer form {
 }
 
 /* RESPONSIVE */
-
 @media screen and (max-width: 768px) {
     /* Nav Bar responsive */
     nav .container {
@@ -641,7 +639,7 @@ footer form {
     line-height: 15px;
 }
 
-    /* Header responsive */
+    /* Home Header responsive */
     header .d-flex {
         height: 60vh;
         overflow: hidden;
@@ -748,12 +746,187 @@ footer form {
         font-size: 16px;
     }
 
+    /* About section responsive */
+    /* About Header */
+    .headers .btn {
+        padding: 5px 20px;
+        margin-top: 15px;
+        font-size: 16px;
+    }
 
+    /* About Intro */
+    .intro {
+        width: 95%;
+    }
 
+    .intro p {
+        margin: 25px 0;
+    }
     
+    /* Mission responsive */
+    .mission {
+        flex-direction: column;
+        text-align: center;
+        padding: 90px 40px;
+    }
 
+    .mission img {
+        margin-bottom: 40px;
+    }
+
+    .mission .btn {
+        padding: 5px 20px;
+        margin-top: 30px;
+        font-size: 16px;
+    }
+
+    /* Booking responsive */
+    .booking article {
+        align-items: stretch;
+    }
+
+    .booking h3 {
+        font-size: 22px;
+        margin: 15px 0;
+    }
     
+    .booking div p {
+        font-size: 18px;
+    }
+
+    .booking div p:first-child {
+        font-size: 20px;
+    }
+
+    .booking .btn {
+        padding: 5px 20px;
+        margin-top: 30px;
+        font-size: 16px;
+    }
+
+    /* CTA - About*/
+    .cta p {
+        margin: 35px 0;
+    }
+
+    .cta .btn {
+        padding: 5px 20px;
+        margin-top: 30px;
+        font-size: 16px;
+    }
+
+    /* Packages Page */
+    .pagePackages h2{
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .pagePackages p {
+        font-size: 14px;
+    }
+
+    .pagePackages .btn {
+        padding: 2px 15px;
+        font-size: 12px;
+    }
+
+    /* Steps */
+    .steps {
+        padding: 60px 20px;
+    }
+
+    .steps div {
+        flex: 0 0 45%;
+    }
+
+    .steps h2 {
+        font-size: 36px;
+        margin-bottom: 40px
+    }
+
+    .steps .btn {
+        padding: 5px 20px;
+        margin-top: 30px;
+        font-size: 16px;
+    }
+
+    /* Features */
+    .features {
+        padding: 80px 10px;
+    }
+
+    .features .d-flex {
+        flex-direction: column-reverse;
+    }
+
+    .features img {
+        width: 200px;
+        margin-bottom: 40px;
+    }
+
+    .features h2 {
+        font-size: 30px;
+    }
+
+    .features h3 {
+        font-size: 22px;
+        margin-top: 25px;
+    }
+
+    .features p {
+        font-size: 18px;
+        margin: 5px 0;
+    }
+
+    /* Our Packages */
+    .ourPackages article div {
+        flex: 0 0 80%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    /* Testimonials */
+    .testimonials .ap {
+        visibility: hidden;
+    }
+
+    .testimonials h2 {
+        margin: auto;
+    }
+
+    /* Contact Header */
+    .headersContact {
+        height: 70vh;
+    }
+
+    .headersContact .btn {
+        padding: 5px 20px;
+        margin-top: 30px;
+        font-size: 16px;
+    }
+
+    .headersContact h2 {
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .headersContact p {
+        font-size: 22px;
+        line-height: 28px;
+        margin: 40px 0;
+    }
+
+    /* Contact Form */
+    .form form{
+        width: 90%;
+    }
+
+    .form input {
+        margin-top: 16px;
+    }
+
+    .form textarea {
+        margin: 22px 0;
+    }
 
 }
-
-
