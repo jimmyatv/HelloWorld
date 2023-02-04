@@ -167,6 +167,7 @@ img {
 .ticker p{
     font-size: 20px;
 }
+
 /* NAVIGATION */
 nav {
     padding: 18px 0;
@@ -259,7 +260,7 @@ header .btn:hover {
 }
 
 /* GALLERY */
-.gallery .container img{
+.gallery .container img {
     flex: 0 0 32%;
     margin-bottom: 25px;
 }
@@ -319,7 +320,7 @@ footer div:last-child > a {
 
 /* footer div:last-child > a:hover {
     color: var(--accents);   
-}  resio sam problem sa funkcijom footer i:hover */
+}  fixed with function ==> footer i:hover */
 
 footer form {
     margin-bottom: 25px;
@@ -614,6 +615,145 @@ footer form {
     display: inline-block;
     margin: auto;
     opacity: 0.8;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 768px) {
+    /* Nav Bar responsive */
+    nav .container {
+        width: 95%;
+        margin: auto;
+    }
+
+    nav .btn {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    nav {
+        padding: 15px 0;
+    }
+
+    nav ul li a {
+    margin-left: 15px;
+    font-size: 16px;
+    line-height: 15px;
+}
+
+    /* Header responsive */
+    header .d-flex {
+        height: 60vh;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    header .btn {
+        padding: 2px 15px;
+        font-size: 12px;
+    }
+    header {
+        height: 60vh;
+    }
+
+    header h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+     header p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    /* Home intro responsive */
+    .intro {
+        flex-direction: column;
+        text-align: center;
+        padding: 70px 0;
+    }
+
+    .intro img {
+        margin-bottom: 40px;  
+    }
+
+    .intro h2 {
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    .intro p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .intro .btn {
+        padding: 5px 20px;
+        font-size: 16px;
+    }
+
+    /* Packages responsive */
+    .packages {
+        background: linear-gradient(var(--black), var(--black), var(--primary));
+    }
+
+    .packages .btn {
+        margin-bottom: 40px;
+        padding: 5px 20px;
+        font-size: 16px;
+    }
+    .packages article{
+        flex-direction: column-reverse;
+        text-align: center;
+        list-style: inside;
+    }
+    
+    .packages article:nth-child(odd) {
+        flex-direction: column-reverse;
+    }
+    
+    .packages article h2 {
+        font-size: 30px;
+    }
+    .packages article h3 {
+        font-size: 26px;
+        margin-top: 20px;
+    }
+    .packages article h4 {
+        font-size: 22px;
+        line-height: 26px;
+        margin: 15px 0;
+    }
+    .packages article h5 {
+        font-size: 20px;
+    }
+
+    .packages article ul li {
+        font-size: 16px;
+    }
+
+    /* Gallery responsive */
+    .gallery .container img {
+        flex: 0 0 100%;
+        margin-bottom: 30px;
+    }
+
+    /* Ticker responsive */    
+    .ticker {
+        height: 5vh;
+        overflow: hidden;
+    }
+    
+    .ticker p {
+        font-size: 16px;
+    }
+
+
+
+    
+
+    
+
 }
 
 
