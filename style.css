@@ -168,6 +168,11 @@ img {
     font-size: 20px;
 }
 /* NAVIGATION */
+nav .burger {
+    font-size: 24px;
+    display: none;
+}
+
 nav {
     padding: 18px 0;
     background: white;
@@ -619,6 +624,10 @@ footer form {
 /* RESPONSIVE */
 @media screen and (max-width: 768px) {
     /* Nav Bar responsive */
+    nav .burger {
+        display: block;
+    }
+
     nav .container {
         width: 95%;
         margin: auto;
@@ -633,11 +642,15 @@ footer form {
         padding: 15px 0;
     }
 
-    nav ul li a {
+    nav .list-none {
+        display: none;
+    }
+
+    /* nav ul li a {
     margin-left: 15px;
     font-size: 16px;
     line-height: 15px;
-}
+} */
 
     /* Home Header responsive */
     header .d-flex {
