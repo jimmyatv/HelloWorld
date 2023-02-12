@@ -624,6 +624,12 @@ footer form {
 /* RESPONSIVE */
 @media screen and (max-width: 768px) {
     /* Nav Bar responsive */
+    nav {
+        position: fixed;
+        width: 100%;
+        z-index: 99;
+    }
+    
     nav .burger {
         display: block;
     }
@@ -642,15 +648,23 @@ footer form {
         padding: 15px 0;
     }
 
+    nav .menu {
+        flex-direction: column;
+    }
+
     nav .list-none {
         display: none;
     }
 
-    /* nav ul li a {
-    margin-left: 15px;
-    font-size: 16px;
-    line-height: 15px;
-} */
+    nav .menu li a {
+        font-size: 14px;
+        margin-left: auto;
+    }
+
+    nav div img {
+        width: 110px;
+    }
+
 
     /* Home Header responsive */
     header .d-flex {
@@ -668,14 +682,28 @@ footer form {
     }
 
     header h1 {
-        font-size: 30px;
-        line-height: 35px;
+        font-size: 24px;
+        line-height: 25px;
+        padding-top: 80px;
     }
 
      header p {
         font-size: 16px;
         line-height: 20px;
     }
+
+    /* headers */
+    .headers h2 {
+        font-size: 26px;
+        line-height: 26px;
+        padding-top: 70px;
+    }
+
+    .headers p {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    
 
     /* Home intro responsive */
     .intro {
@@ -725,6 +753,7 @@ footer form {
     
     .packages article h2 {
         font-size: 30px;
+        
     }
     .packages article h3 {
         font-size: 26px;
@@ -769,7 +798,7 @@ footer form {
 
     /* About Intro */
     .intro {
-        width: 95%;
+        width: 90%;
     }
 
     .intro p {
@@ -832,6 +861,7 @@ footer form {
     .pagePackages h2{
         font-size: 22px;
         line-height: 30px;
+        padding-top: 60px;
     }
 
     .pagePackages p {
@@ -899,9 +929,6 @@ footer form {
     }
 
     /* Testimonials */
-    .testimonials .ap {
-        visibility: hidden;
-    }
 
     .testimonials h2 {
         margin: auto;
@@ -941,5 +968,179 @@ footer form {
     .form textarea {
         margin: 22px 0;
     }
+
+    /* footer responsive */
+    footer div {
+        position: relative;
+        top: 0;
+    }
+    footer div img {
+        width: 120px;
+    }
+
+    footer h3 {
+        font-size: 26px;
+    }
+
+}
+
+/* Responsiv 576px */
+@media screen and (max-width: 576px) {
+   
+    /* Nav Bar */
+    
+    nav {
+        position: fixed;
+        width: 100%;
+        z-index: 99;
+    }
+    nav .menu {
+        flex-direction: column;
+    }
+    nav .menu li a {
+        font-size: 12px;
+        margin-left: auto;
+    }
+
+    nav .btn {
+        padding: 4px 9px;
+        font-size: 12px;
+    }
+
+    nav div img {
+        width: 100px;
+    }
+
+    /* Home Header responsive */
+
+    header h1 {
+        font-size: 20px;
+        line-height: 22px;
+        padding-top: 70px;
+    }
+
+    header p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    header .btn {
+        padding: 2px 13px;
+        font-size: 11px;
+    }
+
+    /* About section responsive */
+    .headers .container {
+        width: 95%;
+    }
+    .headers h2 {
+        font-size: 19px;
+        line-height: 22px;
+        margin-top: 10px;
+    }
+
+    .headers p {
+        font-size: 13px;
+        line-height: 16px;
+        
+    }
+
+    .headers .btn {
+        padding: 2px 10px;
+        margin-bottom: 25px;
+        font-size: 12px;
+    }
+
+    /* About intro responsive */
+    .intro {
+        width: 90%;
+    }
+
+    .intro h2 {
+        font-size: 22px;
+    }
+
+    .intro p {
+        font-size: 14px;
+    }
+
+    /* Mission responsive */
+
+    .mission h2 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .mission p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    /* Booking responsive */
+    .booking h2 {
+        font-size: 32px;
+    }
+
+    .booking div {
+        flex: 0 0 95%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .booking div:nth-child(2) {
+        padding: 50px 0;
+    }
+
+    /* Packages Page */
+    .pagePackages h2{
+        font-size: 20px;
+        line-height: 26px;
+        padding-top: 60px;
+    }
+
+    /* Testimonials */
+
+    .testimonials article:last-child div {
+        flex: 0 0 95%;
+    }
+
+    .testimonials article:last-child h3 {
+        margin-bottom: 50px;
+    }
+    
+    .testimonials h2 {
+        margin: auto;
+    }
+
+    /* Contact Header */
+    
+
+    .headersContact h2 {
+        font-size: 26px;
+        line-height: 28px;
+        padding-top: 60px;
+    }
+
+    .headersContact p {
+        font-size: 18px;
+        line-height: 20px;
+        margin-top: 50px;
+    }
+
+    /* footer responsive */
+    footer div {
+        position: relative;
+        top: 0;
+    }
+    footer div img {
+        width: 100px;
+    }
+
+    footer h3 {
+        font-size: 20px;
+    }
+
+    
+
 
 }
