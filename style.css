@@ -1014,9 +1014,9 @@ footer form {
     /* Home Header responsive */
 
     header h1 {
-        font-size: 20px;
-        line-height: 22px;
-        padding-top: 70px;
+        font-size: 16px;
+        line-height: 20px;
+        padding-top: 80px;
     }
 
     header p {
@@ -1025,8 +1025,8 @@ footer form {
     }
 
     header .btn {
-        padding: 2px 13px;
-        font-size: 11px;
+        padding: 0 2px;
+        font-size: 8px;
     }
 
     /* About section responsive */
@@ -1034,22 +1034,23 @@ footer form {
         width: 95%;
     }
     .headers h2 {
-        font-size: 19px;
+        font-size: 18px;
         line-height: 22px;
-        margin-top: 10px;
     }
 
     .headers p {
-        font-size: 13px;
-        line-height: 16px;
+        font-size: 12px;
+        line-height: 14px;
+        margin: -20px 0;
         
     }
 
     .headers .btn {
-        padding: 2px 10px;
-        margin-bottom: 25px;
-        font-size: 12px;
+        padding: 0px 2px;
+        font-size: 10px;
     }
+
+
 
     /* About intro responsive */
     .intro {
@@ -1063,6 +1064,7 @@ footer form {
     .intro p {
         font-size: 14px;
     }
+
 
     /* Mission responsive */
 
@@ -1092,10 +1094,33 @@ footer form {
     }
 
     /* Packages Page */
+    .pagePackages div {
+        text-align: start;
+    }
+
     .pagePackages h2{
         font-size: 20px;
-        line-height: 26px;
+        line-height: 22px;
         padding-top: 60px;
+    }
+
+    .pagePackages p {
+        font-size: 12px;
+        line-height: 14px;
+        margin: 5px 0;
+    }
+
+    .pagePackages .btn {
+        font-size: 8px;
+        padding: 0 2px;
+    }
+
+    /* <!-- GALLERY SECTION --> */
+    .gallery h2 {
+        font-size: 30px;
+        width: 80%;
+        margin: auto;
+        padding: 35px 0;
     }
 
     /* Testimonials */
@@ -1116,15 +1141,38 @@ footer form {
     
 
     .headersContact h2 {
-        font-size: 26px;
-        line-height: 28px;
+        font-size: 22px;
+        line-height: 24px;
         padding-top: 60px;
     }
 
     .headersContact p {
-        font-size: 18px;
-        line-height: 20px;
-        margin-top: 50px;
+        font-size: 14px;
+        line-height: 18px;
+        margin: 30px 0
+    }
+
+    /* CTA - responsive */
+    .cta h2 {
+        font-size: 26px;
+        line-height: 30px;
+        margin-top: 100px;
+        
+    }
+
+    .cta p {
+        font-size: 16px;
+        line-height: 22px;
+        margin: 50px 0;
+    }
+
+    /* Contact form */
+    .form textarea {
+        width: 95%;
+    }
+
+    .form input {
+        width: 95%;
     }
 
     /* footer responsive */
