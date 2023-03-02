@@ -18,3 +18,5 @@
     burger.addEventListener('click', handleBurgerClick);
   
   })();
+
+  // IIFE - Immediately invoked function expression

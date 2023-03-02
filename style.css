@@ -624,6 +624,15 @@ footer form {
 /* RESPONSIVE */
 @media screen and (max-width: 768px) {
     /* Nav Bar responsive */
+    .nav-container {
+        display: block;
+    }
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     nav {
         position: fixed;
         width: 100%;
@@ -650,6 +659,7 @@ footer form {
 
     nav .menu {
         flex-direction: column;
+        align-items: center;
     }
 
     nav .list-none {
@@ -1005,6 +1015,7 @@ footer form {
     }
     nav .menu {
         flex-direction: column;
+
     }
     nav .menu li a {
         font-size: 12px;
